@@ -71,6 +71,7 @@ go-bookstore/
 ├── go.mod
 └── go.sum
 
+
 - `cmd/main/main.go`: Main application entry point.
 - `pkg/config/app.go`: Database configuration.
 - `pkg/controllers/bookcontrollers.go`: Handlers for book-related operations.
