@@ -49,24 +49,24 @@ The project structure is organized as follows:
 go-bookstore/
 │
 ├── cmd/
-│ └── main/
-│ └── main.go
+│   └── main/
+│       └── main.go
 │
 ├── pkg/
-│ ├── config/
-│ │ ├── app.go
-│ │ └── ...
-│ ├── controllers/
-│ │ ├── bookcontrollers.go
-│ │ └── ...
-│ ├── models/
-│ │ ├── bookmodels.go
-│ │ └── ...
-│ ├── routes/
-│ │ ├── routes.go
-│ │ └── ...
-│ └── utils/
-│ └── utils.go
+│   ├── config/
+│   │   ├── app.go
+│   │   └── ...
+│   ├── controllers/
+│   │   ├── bookcontrollers.go
+│   │   └── ...
+│   ├── models/
+│   │   ├── bookmodels.go
+│   │   └── ...
+│   ├── routes/
+│   │   ├── routes.go
+│   │   └── ...
+│   └── utils/
+│       └── utils.go
 │
 ├── go.mod
 └── go.sum
