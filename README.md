@@ -46,30 +46,31 @@ This project is a bookstore management system built with Go and SQL. It provides
 
 The project structure is organized as follows:
 
-go-bookstore/
+`go-bookstore/`
 │
-├── cmd/
-│   └── main/
-│       └── main.go
+├── `cmd/`
+│   └── `main/`
+│       └── `main.go`
 │
-├── pkg/
-│   ├── config/
-│   │   ├── app.go
-│   │   └── ...
-│   ├── controllers/
-│   │   ├── bookcontrollers.go
-│   │   └── ...
-│   ├── models/
-│   │   ├── bookmodels.go
-│   │   └── ...
-│   ├── routes/
-│   │   ├── routes.go
-│   │   └── ...
-│   └── utils/
-│       └── utils.go
+├── `pkg/`
+│   ├── `config/`
+│   │   ├── `app.go`
+│   │   └── `...`
+│   ├── `controllers/`
+│   │   ├── `bookcontrollers.go`
+│   │   └── `...`
+│   ├── `models/`
+│   │   ├── `bookmodels.go`
+│   │   └── `...`
+│   ├── `routes/`
+│   │   ├── `routes.go`
+│   │   └── `...`
+│   └── `utils/`
+│       └── `utils.go`
 │
-├── go.mod
-└── go.sum
+├── `go.mod`
+└── `go.sum`
+
 
 
 - `cmd/main/main.go`: Main application entry point.
