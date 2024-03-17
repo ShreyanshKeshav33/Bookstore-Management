@@ -69,11 +69,13 @@ To install the project, clone the repository and install the dependencies:
 git clone <repository-url>
 cd go-bookstore
 go mod tidy
-
+```
+## Usage
+```bash
 go run cmd/main/main.go
+```
+## Endpoints
 
-
-Endpoints
 The following endpoints are available:
 
 POST /book/: Create a new book.
@@ -81,6 +83,5 @@ GET /book/: Get all books.
 GET /book/{bookId}: Get a book by ID.
 PUT /book/{bookId}: Update a book by ID.
 DELETE /book/{bookId}: Delete a book by ID.
-Contributing
-Contributions are welcome! Feel free to open an issue or submit a pull request.
+
 
