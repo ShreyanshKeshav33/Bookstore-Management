@@ -9,8 +9,6 @@ This is a bookstore management system implemented in Go (Golang) and SQL. It all
 - [Installation](#installation)
 - [Usage](#usage)
 - [Endpoints](#endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 
