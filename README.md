@@ -30,7 +30,7 @@ This is a bookstore management system implemented in Go (Golang) and SQL. It all
 
 ## Table of Contents
 - [Overview](#overview)
-- [Project Structure](#project-structure)
+- [Project Configuration](#project-configuration)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -42,36 +42,9 @@ This is a bookstore management system implemented in Go (Golang) and SQL. It all
 
 This project is a bookstore management system built with Go and SQL. It provides a RESTful API for managing books, including features such as creating, reading, updating, and deleting books.
 
-## Project Structure
+## Project Confirguration
 
-The project structure is organized as follows:
-
-`go-bookstore/`
-│
-├── `cmd/`
-│   └── `main/`
-│       └── `main.go`
-│
-├── `pkg/`
-│   ├── `config/`
-│   │   ├── `app.go`
-│   │   └── `...`
-│   ├── `controllers/`
-│   │   ├── `bookcontrollers.go`
-│   │   └── `...`
-│   ├── `models/`
-│   │   ├── `bookmodels.go`
-│   │   └── `...`
-│   ├── `routes/`
-│   │   ├── `routes.go`
-│   │   └── `...`
-│   └── `utils/`
-│       └── `utils.go`
-│
-├── `go.mod`
-└── `go.sum`
-
-
+The project Configuration is organized as follows:
 
 - `cmd/main/main.go`: Main application entry point.
 - `pkg/config/app.go`: Database configuration.
