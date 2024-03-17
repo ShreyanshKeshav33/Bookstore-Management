@@ -10,7 +10,7 @@ var db *gorm.DB
 // we create a struct, structs are basically based on models and models gives strcutures that are store something in database
 type Book struct {
 	gorm.Model         //gorm.Model" is a struct that you embed in your model structs to automatically add fields like "ID", "CreatedAt", "UpdatedAt", and "DeletedAt", etc
-	Name        string `gorm:""json:"name"`
+	Name        string `gorm:"" json:"name"`
 	Author      string `json:"author"`
 	Publication string `json:"publication"`
 }
