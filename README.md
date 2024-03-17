@@ -4,30 +4,6 @@ This is a bookstore management system implemented in Go (Golang) and SQL. It all
 
 ## Table of Contents
 - [Overview](#overview)
-- [Project Structure](#project-structure)
-- [Dependencies](#dependencies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Endpoints](#endpoints)
-
-## Overview
-
-This project is a bookstore management system built with Go and SQL. It provides a RESTful API for managing books, including features such as creating, reading, updating, and deleting books.
-
-## Project Structure
-
-The project structure is organized as follows:
-
-Based on the provided project structure and code snippets, I'll help you generate a README.md file for your GitHub repository. Here's a template for your README.md file:
-
-markdown
-Copy code
-# Bookstore Management System
-
-This is a bookstore management system implemented in Go (Golang) and SQL. It allows users to perform CRUD operations on books via HTTP endpoints.
-
-## Table of Contents
-- [Overview](#overview)
 - [Project Configuration](#project-configuration)
 - [Dependencies](#dependencies)
 - [Installation](#installation)
@@ -48,7 +24,7 @@ The project Configuration is organized as follows:
 - `pkg/config/app.go`: Database configuration.
 - `pkg/controllers/bookcontrollers.go`: Handlers for book-related operations.
 - `pkg/models/bookmodels.go`: Database models for books.
-- `pkg/routes/routes.go`: Definition of HTTP routes.
+- `pkg/routes/routes.go`: Definition of HTTP routes. 
 - `pkg/utils/utils.go`: Utility functions.
 - `go.mod` and `go.sum`: Go module files.
 
